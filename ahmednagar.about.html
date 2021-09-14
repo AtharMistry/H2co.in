@@ -1,0 +1,583 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>About</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/h2coin logo.png"
+      type="image/x-icon"
+    />
+    <meta name="author" />
+    <meta name="description" />
+    <meta
+      name="keywords"
+      content="h2,H2 Ratnagiri,h2 ratnagiri,Ratnagiri,H2 coin, h2co.in,H2 Coin,H2CO.IN,H2COIN,	alternative energy, ecology, energy business, green energy, heating, hydropower, nature energy, power saving, recycling, renewable energy, solar energy, Solar Panels, wing turbines"
+    />
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css" />
+    <link rel="stylesheet" href="assets/css/simple-line-icons.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/flaticon.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/video.min.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- For Modals -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+    />
+
+    <!-- for cookie -->
+    <link rel="stylesheet" type="text/css" href="assets/cookie/purecookie.css" async />
+    <script src="assets/cookie/purecookie.js" async></script>
+
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+
+      .text-content {
+        padding: 25px;
+        background: rgb(223, 216, 216);
+        border-radius: 10px;
+        width: 300%;
+      }
+
+      .btn-modal {
+        background: none;
+        border: none;
+        outline: none;
+        color: #fff;
+        font-size: 18px;
+      }
+
+      .btn-modal:hover,
+      .btn-modal:focus {
+        color: #fff;
+      }
+
+      .modal a.close-modal {
+        display: none !important;
+      }
+
+      .fh-info.modal {
+        padding: 30px;
+      }
+
+      .fh-info.modal p {
+        font-size: 16px !important;
+      }
+
+      .features-hover-text p:last-of-type {
+        font-size: 16px !important;
+        text-align: left !important;
+        margin-top: 10px;
+      }
+
+      .close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        color: #fff !important;
+        background: #555;
+        padding: 2px 10px;
+        border-radius: 3px;
+      }
+
+      .close-btn:hover {
+        color: #fff;
+      }
+      .shadow {
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+          rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      }
+
+      .quote-box {
+        border-left: 8px solid #2a2a2a;
+      }
+
+      .quote {
+        font-size: 20px;
+        font-style: italic;
+        padding: 30px 0 30px 60px;
+        position: relative;
+      }
+
+      .quote::before,
+      .quote::after {
+        display: block;
+        position: absolute;
+        font-size: 120px;
+        color: #2a2a2a;
+      }
+
+      .quote::before {
+        content: "\201C";
+        top: -50px;
+        left: 0;
+      }
+
+      .quote::after {
+        content: "\201D";
+        right: 25px;
+        bottom: -100%;
+      }
+
+      .quote-author {
+        display: block;
+        text-align: right;
+        padding-right: 60px;
+      }
+
+      .quote-box ~ p {
+        font-size: 20px;
+        margin: 30px 0;
+      }
+
+      .quote-box + p {
+        margin-top: 60px;
+      }
+
+      .mission-card {
+        display: grid;
+        grid-template-columns: 15% 85%;
+        align-items: center;
+        column-gap: 20px;
+        background-color: #11426B;
+        padding: 25px 25px 25px 40px;
+        box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        transition: all 0.3s ease-out;
+      }
+
+      .mission-caption {
+        display: flex;
+        align-items: center;
+      }
+
+      .mission-caption h3,
+      .mission-statement p {
+        color: #fff;
+        margin-bottom: 0;
+      }
+
+      .mission-icon {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+        fill: #fff;
+      }
+
+      .mission-statement p {
+        font-size: 20px;
+        font-weight: bolder;
+        line-height: 1.4;
+      }
+
+      .manufacture {
+        margin: 40px 0 80px;
+      }
+
+      .manufacture .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+
+      .img-box {
+        padding: 0;
+        margin-right: 50px;
+      }
+
+      .manufacture-content p {
+        font-size: 20px;
+      }
+
+      .manufacture-img {
+        width: 100%;
+        /* height: 300px; */
+      }
+      .vl {
+        border-left: 1px solid black;
+        height: 70px;
+        position: absolute;
+        left: 50%;
+        margin-left: -3px;
+        top: 53px;
+      }
+    </style>
+	
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-3HP81YK6PG"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-3HP81YK6PG');
+	</script>
+  
+  </head>
+
+  <body class="about-page">
+    <!-- Start of header section
+	============================================= -->
+    <header id="header_id" class="main_header header_style_one">
+      <div class="header_top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="header_top_contact ul-li clearfix">
+                <ul>
+                  <li>
+                    <li style="background-color:green;">
+                      <a href="ahmednagar.html">Maharashtra</a>
+                    </li>
+                    <li>
+                      <a href="ahmednagar.about.html">About Us</a>
+                    </li>
+                   
+                    <li>
+                      <a href="ahmednagar.technology.html">Technology</a>
+                    </li>
+                    <li>
+                      <a href="ahmednagar.why_h2_ahmednagar.html">H2 Ahmednagar</a>
+                      
+                    </li>
+                    <li >
+                      <a href="ahmednagar.invest.html">Invest</a>
+                    </li>
+                    <li><a href="ahmednagar.contact.html">Contact Us</a></li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6"></div>
+          </div>
+        </div>
+      </div>
+      <div class="site-main-menu clearfix">
+        <div class="container">
+          <div class="">
+            <a href="index.html"
+              ><img src="assets/img/Web Banner Khandesh, Maharastra/Web Banner Ahmadnagar.png" width="600" alt="."
+            /></a>
+          </div>
+         
+        </div>
+
+        <nav class="nav-mobile">
+          <div id="burger-menu">
+            <span></span>
+          </div>
+
+          <div id="menu">
+            <ul>
+              <li style="background-color:green;"><a href="ahmednagar.html">Maharashtra</a></li>
+              <li><a href="ahmednagar.about.html">About Us</a></li>
+             
+              <li><a href="ahmednagar.technology.html">Technology</a></li>
+              <li><a href="ahmednagar.why_h2_ahmednagar.html">H2 Ahmednagar</a></li>
+              <li >
+                <a href="ahmednagar.invest.html">Invest</a>
+              </li>
+              <li><a href="ahmednagar.contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- End of header section
+	============================================= -->
+
+    <!-- Start of breadcrumb section
+	============================================= -->
+    <section
+      id="breadcrumb"
+      class="breadcrumb-section position-relative"
+      data-background="assets/img/image_1.jpg"
+    >
+      <div class="container">
+        <div class="breadcrumb-content headline">
+          <h2 class="breadcrumb-title">about us</h2>
+        </div>
+      </div>
+    </section>
+    <br /><br />
+    <!-- End of breadcrumb section
+	============================================= -->
+
+    <!-- Start of about section
+	============================================= -->
+    <section id="about" class="about-section about-page-about">
+      <div class="container">
+        <div class="quote-box">
+          <blockquote class="quote">
+          Water will one day be employed as fuel, that hydrogen and oxygen which constitute it, used singly or together, will furnish an inexhaustible source of heat and light, of an intensity of which coal is not capable
+          </blockquote>
+
+          <cite class="quote-author"
+            >&mdash; Jules Verne, <br />
+            The Mysterious Island</cite
+          >
+        </div>
+
+        <p>
+          The H2 RATNAGIRI founding team is equipped with more than 100+ person-years of experience in designing and deploying innovative products of the hydrogen fuel-cell, power electronics & renewable verticals. We create a state-of-the-art suite of energy products that enables the world to transition into a sustainable future in a clean, safe & cost-effective manner. We are ably supported in this mission by our subsidiary, Danano Photonics India Private Limited which operates from Bangalore, India. 
+        </p>
+
+      </div>
+    </section>
+
+    <!-- End of about section
+	============================================= -->
+
+    <!-- Start of mission section
+	============================================= -->
+    <section id="about" class="about-section about-page-about">
+      <div class="container">
+        <div class="mission-card">
+          <div class="mission-caption">
+            <!-- <svg class="mission-icon">
+              <use xlink:href="./assets/img/icons.svg#mission"></use>
+            </svg> -->
+
+            <h3>Mission</h3>
+          </div>
+
+          <div class="mission-statement">
+            <p>
+              Our mission is to create innovative products and solutions which enable a sustainable way of life. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of mission section
+	============================================= -->
+
+    <!-- Start of manufacture section
+	============================================= -->
+
+    <section class="manufacture">
+      <div class="container">
+        <div class="col-lg-5 col-md-12 img-box">
+          <div class="about-img clearfix">
+            <div
+              class="abt-img-set"
+              data-tilt=""
+              data-tilt-max="0"
+              style="
+                will-change: transform;
+                transform: perspective(300px) rotateX(0deg) rotateY(0deg);
+              "
+            >
+              <img
+                src="assets/img/danano  photonics logo.jpg"
+                alt=""
+                class="manufacture-img"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="manufacture-content">
+          <p>
+            Hydrogen and fuel cells offer a broad range of benefits for the environment, for our district’s energy security, and for our domestic economy, including: reduced greenhouse gas emissions; reduced oil consumption; expanded use of renewable power (through use of hydrogen for energy storage and transmission); highly efficient energy conversion; fuel flexibility (use of diverse, domestic fuels, including clean and renewable fuels); reduced air pollution; and highly reliable grid-support. Fuel cells also have numerous advantages that make them appealing for end-users, including quiet and more productive operation, low maintenance needs, and high reliability. 
+          </p>
+
+          <p>
+            Hydrogen and fuel cells can provide these benefits and address critical challenges in all energy sectors—commercial, residential, industrial, and transportation—through their use in a variety of applications, including distributed energy; backup power systems; systems for storing and transmitting renewable energy; portable power; auxiliary power for trucks, and ships; specialty vehicles, such as forklifts; and passenger and freight vehicles, including cars, light trucks, buses, and short-haul trucks.
+          </p>
+          <p>
+            The widespread use of hydrogen and fuel cells will play an increasingly more substantial role in overcoming our district’s key energy challenges, including significant reductions in greenhouse gas emissions and oil consumption as well as improvements in air quality. In addition, hydrogen and fuel cells provide a significant economic opportunity for the Ratnagiri District, with various studies projecting up to 30,000 new jobs in the District by 2025–2035. Growing investment among leading world economies such as Germany, Japan, and South Korea, underscores the global market potential for these technologies and the need for continued investment for industry to remain competitive.
+          </p>
+          <p>
+            While fuel cells are becoming competitive in several markets, these markets can be greatly expanded with improvements in durability and performance and reductions in manufacturing cost, as well as advances in technologies for producing, delivering, and storing hydrogen. Successful entry into new markets will also require overcoming certain institutional and economic barriers, such as the need for codes and standards, the lack of public understanding and acceptance of the technologies, and the high initial installation costs and lack of a supply base that many new technologies face in their critical early commercialization stages.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of manufacture section
+	============================================= -->
+
+    <!-- Start of Features section
+	============================================= -->
+    <section
+      id="features"
+      class="features-section position-relative">
+      data-background="assets/img/background/ft-bg.jpg"
+    >
+      <div class="background_overlay"></div>
+      <div class="container">
+        <div class="section-title-middle text-center">
+          <h2>Leadership Team</h2>
+        </div>
+        <!-- /title -->
+        <div class="features-content">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="features-icon-text text-center position-relative">
+                <div class="features-icon">
+                  <img src="assets/img/SIR.jpg" alt="" />
+                </div>
+                <div class="features-text headline pera-content">
+                  <h3>Dan Rajpurkar</h3>
+                  <p>CEO and Co-Founder</p>
+                </div>
+                <div class="features-hover-content">
+                  <div class="features-hover-text headline pera-content">
+                    <h3>Dan Rajpurkar</h3>
+                    <p>(CEO and Co-Founder)</p>
+                   
+                    <p style="text-align: justify; font-size: 18px">
+                      20 years of experience commercializing hydrogen generation and power generation technologies with PEM and Solid Oxide cell technologies. Engineer certified US Navy submarine officer; semiconductor thin films experience; Palo Alto Utilities commissioner experience
+                    </p>
+                    <br />
+                    <!--
+                    <div class="fh-more" style="margin-top: 0">
+                      <a href="#member1" rel="modal:open">Read More</a>
+                    </div>
+                    -->
+                  </div>
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+
+              
+      </div>
+    </section>
+    <br /><br />
+    <!-- End of Features section
+	============================================= -->
+
+    <!-- Start of Footer section
+	============================================= -->
+    <footer id="footer-id" class="footer-section">
+      <br /><br /><br />
+      <div class="footer-content">
+        <div class="container">
+          <div class="footer-contact-info">
+            <div class="row">
+              <div class="col-lg-3">
+                <div
+                  class="footer-icon-text-contact-info headline pera-content"
+                >
+                  <br /><br />
+                  <a class="footer-logo" href="index"
+                    ><img src="assets/cookie/danano  photonics logo.jpg" alt="logo white"
+                  /></a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div
+                  class="footer-icon-text-contact-info headline pera-content"
+                >
+                  <h4 style="color: white" style="font-size: 22px">
+                    <i class="icon-pin"></i> Our Locations
+                  </h4>
+                  <br />
+                  <ul style="color: white">
+                    <li>
+                      <a
+                        href="https://www.google.com/maps/place/885+Tahoe+Blvd+B1,+Incline+Village,+NV+89451/@39.2494467,-119.9564124,676m/data=!3m1!1e3!4m5!3m4!1s0x8099701771081d27:0x98ea8138f485457b!8m2!3d39.2494467!4d-119.9542237?shorturl=1"
+                        target="_blank"
+                      >
+                      Ahmednagar</a
+                      >
+                    
+                     
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div
+                  class="footer-icon-text-contact-info headline pera-content"
+                >
+                  <h4 style="color: white">
+                    <i class="icon-link"></i> Quick Links
+                  </h4>
+                  <br />
+                  <ul style="color: white">
+                    <li><a href="ahmednagar.html">Maharashtra</a></li>
+                    <li><a href="ahmednagar.about.html">About Us</a></li>
+                    
+                    <li><a href="ahmednagar.technology.html">Technology</a></li>
+                    <li><a href="ahmednagar.why_h2_ahmednagar.html">H2 Ahmednagar</a></li>
+                    <li >
+                      <a href="ahmednagar.invest.html">Invest</a>
+                    </li>
+                    <li><a href="ahmednagar.contact.html">Contact Us</a></li>
+                    <li><a href="ahmednagar.privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="ahmednagar.terms-condition.html">Terms and Conditions</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div
+                  class="footer-icon-text-contact-info headline pera-content"
+                >
+                  <h4 style="color: white">
+                    <i class="icon-envelope-letter"></i> Email Us @
+                  </h4>
+                  <br />
+                  <p style="color: white">
+                    <a href="mailto:h2.ahmednagar@gamil.com">h2.ahmednagar@gamil.com</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright-text text-center">
+        <p>
+          © h2.ahmednagar 2021. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- End of Footer section
+	============================================= -->
+  
+
+    <!-- For Js Library -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jarallax.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/tilt.jquery.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    
+  </body>
+</html>
